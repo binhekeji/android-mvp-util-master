@@ -1,9 +1,11 @@
-package com.cainiao;
+package com.cainiao.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
 
-public class MainActivity extends Activity {
+import com.cainiao.R;
+import com.cainiao.base.BaseActivity;
+
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
