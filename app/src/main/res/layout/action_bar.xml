@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:background="@color/action_bar_bg">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="ActionBar"
+            android:textColor="@color/title"
+            android:textSize="@dimen/action_bar_center_title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/action_bar_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@mipmap/action_bar_back" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/action_bar_left"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="返回"
+                android:textColor="@color/action_bar_left"
+                android:textSize="@dimen/action_bar_left" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/action_bar_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="返回"
+                    android:textColor="@color/action_bar_right"
+                    android:textSize="@dimen/action_abr_right" />
+
+                <ImageView
+                    android:id="@+id/action_bar_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/action_bar_menu" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

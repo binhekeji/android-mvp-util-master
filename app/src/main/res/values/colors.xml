@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- actionBar  -->
+    <color name="action_bar_bg">#ffcc0000</color>
+    <color name="action_bar_right">#ffffff</color>
+    <color name="action_bar_left">#ffffff</color>
+    <color name="title">#ffffff</color>
 </resources>
