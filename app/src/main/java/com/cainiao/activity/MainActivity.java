@@ -1,6 +1,7 @@
 package com.cainiao.activity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.cainiao.R;
@@ -81,5 +82,10 @@ public class MainActivity extends BaseActivity {
                 "        android:layout_height=\"wrap_content\" />\n" +
                 "\n" +
                 "</android.support.constraint.ConstraintLayout>\n");
+    }
+
+    @Override
+    public View getView() {
+        return null;
     }
 }

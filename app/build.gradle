@@ -28,6 +28,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.orhanobut:logger:2.1.1'
     compile 'com.android.support:support-v4:25.0.0'
-    compile project(path: ':utilslibrary')
     compile 'com.jakewharton:butterknife:8.8.1'
+    compile project(':downloadlibrary')
+    compile project(':utilslibrary')
 }

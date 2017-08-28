@@ -1,5 +1,6 @@
 package com.cainiao.base;
 
+import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
 
@@ -27,7 +28,6 @@ public class MyApplication extends Application {
         super.onCreate();
         context=this;
         initLogger();
-        ButterKnife.bind(getApplicationContext());
     }
 
     /**
